@@ -715,6 +715,7 @@ em{font-style:normal;}
   color:var(--ivory);border-color:rgba(205,181,133,.45);
   padding-top:clamp(40px,6vh,60px);
 }
+.off-feat:hover{transform:none;box-shadow:none;background:linear-gradient(165deg,#1d2c1f,#14201a);cursor:default;}
 .off-feat::before{
   content:"";position:absolute;inset:0;pointer-events:none;
   box-shadow:0 40px 80px -34px rgba(20,18,10,.6);
